@@ -1,5 +1,5 @@
 services:
-  - type: worker   # ← вот тут!
+  - type: worker
     name: rostelekom-bot
     env: python
     plan: free
