@@ -10,4 +10,4 @@ services:
       - key: BOT_TOKEN
         value: 7239749525:AAHSHRQgDoJ41ts-DFzWY4NWZWW1wX-nSGQ
       - key: ADMIN_ID
-        value: "911720830"
+        value: 911720830
