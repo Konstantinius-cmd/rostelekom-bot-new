@@ -1,9 +1,9 @@
 services:
-  - type: worker
+  - type: worker   # ← вот тут!
     name: rostelekom-bot
     env: python
     plan: free
-    buildCommand: ""
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "python bot.py"
     autoDeploy: true
     envVars:
